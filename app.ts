@@ -1,3 +1,5 @@
+import { add,sub } from './my-function'
+
 console.log('hello')
 
 var n1: number = 0;
@@ -13,5 +15,9 @@ function fibonacci(n: number): number {
     }
 }
 
-console.log('fibonacci of 10 is:'+fibonacci(10));
-console.log('fibonacci of 20 is:'+fibonacci(20));
+console.log('fibonacci of 10 is:' + fibonacci(10));
+console.log('fibonacci of 20 is:' + fibonacci(20));
+
+var n3: number = add(3, 5)
+
+console.log('add value:' + n3)
